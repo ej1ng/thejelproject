@@ -1,0 +1,12 @@
+--STYLING AND DESIGN REFERENCE SHEET 
+
+Primary Palette:
+  Text and Headings -- Oxford Blue #092048
+  Call to Action Colour -- Naples Yellow #ffd470
+  Site Background -- Floral White #f6f2eb
+    Sub-Background -- White #ffffff
+
+// NOTE: Neutral Palettes are for text 
+Dark Neutral Palette: 
+
+
