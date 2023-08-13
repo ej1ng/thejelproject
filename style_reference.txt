@@ -1,5 +1,14 @@
 ----------------------------------
-COLOR REFERENCE SHEET 
+VIEWPORT UNITS REFERENCE
+
+// NOTE: Each unit represents 1% of the viewport size
+vw -- viewport width 
+vh -- viewport height 
+vmin -- smaller than vmax?
+vmax -- smaller than vmin?
+
+----------------------------------
+COLOR REFERENCE 
 
 Primary Palette:
   Text and Headings -- Oxford Blue #092048
@@ -24,4 +33,6 @@ Neutral Palettes:
     Alabaster #e5e3dc
 
 ----------------------------------
-FONT REFERENCE SHEET 
+FONT REFERENCE 
+
+Main Headers -- A
