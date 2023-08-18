@@ -11,8 +11,8 @@ html {
 }
 
 @font-face {
-  font-family: "Apparel Black";
-  src: url(C:\Users\eling\git-test\fonts\Apparel\Apparel Black.ttf);
+  font-family: "Apparel Bold";
+  src: url(fonts/Apparel/Apparel-Bold.ttf);
 }
 @font-face {
   font-family:"Apparel Regular";
