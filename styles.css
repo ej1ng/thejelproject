@@ -42,17 +42,17 @@ body {
 }
 
 .circle {
-  width: 60%;
-  height: 0;
-  line-height: 128px;
-  padding:30% 0;
-  border-radius: 75%;
-  font-size: 20px;
-  color: #fff;
-  text-align: center;
-  background: hsla(57, 32%, 87%,80%);
-  margin:0 auto;
-}
+    width: 60%;
+    height: 0;
+    line-height: 128px;
+    padding:30% 0;
+    border-radius: 75%;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    background: radial-gradient(#e9e8d4, #3B465C);
+    margin: 0 auto;
+  }
 
 a#scroll-button {
   position:absolute;
