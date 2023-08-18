@@ -1,1 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 
+}
+
+html {
+  font-size: calc(15px + 0.390625vw);
+}
+
+@font-face {
+  font-family: "Apparel Black";
+  src: url(fonts/Fontspring-DEMO-appareldisplay-black.otf);
+}
+
+@font-face {
+  font-family: "Amiko Bold";
+  src: url(fonts/Amiko/Amiko-Bold.ttf)
+}
+
+@media (min-width:1000px) {
+  .hidden-ss {
+    display: none !important;
+  }
+}
+
+body {
+  background-color:#3B465C;
+  height:100vh;
+  position:relative;
+}
+
+#logo {
+  color: #F1F1E4;
+  font-family: "Amiko Bold";
+  font-size:1.1rem;
+}
+#welcome-message {
+  font-family:"Amiko Bold";
+  font-size: 4rem;
+}
+
+.circle {
+  width: 60%;
+  height: 0;
+  line-height: 128px;
+  padding:30% 0;
+  border-radius: 75%;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  text-overflow:;
+  background: hsla(57, 32%, 87%,80%);
+  margin:0 auto;
+}
+
+a#scroll-button {
+  position:absolute;
+  height:10em;
+  width:6.25em;
+  border:0.5em solid hsla(0,0,0,0%);
+  margin:auto;
+  left:0;
+  right:0;
+  bottom:6.25em;
+}
+
+a#scroll-button:before {
+  position: absolute;
+  margin:auto;
+  content:"";
+  left:0;
+  right:0;
+  width:1.2em;
+  height:1.2em;
+  background-color:#fff;
+  border-radius:50%;
+}
