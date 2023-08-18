@@ -48,7 +48,7 @@ body {
   padding:30% 0;
   border-radius: 75%;
   font-size: 20px;
-  color: #fff;
+  color: radial-gradient(#e66465, #9198e5);
   text-align: center;
   text-overflow:;
   background: hsla(57, 32%, 87%,80%);
