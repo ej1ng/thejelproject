@@ -70,16 +70,16 @@ section {
   margin-bottom:1em;
 }
 .circle {
-  width: 44rem;
-  height: 0;
-  line-height: 128px;
-  padding:22rem 0;
-  border-radius: 75%;
-  font-size: 20px;
-  text-align: center;
-  background: hsla(57, 32%, 87%,80%);
-  margin:0 auto;
-}
+    width: 44rem;
+    height: 0;
+    line-height: 128px;
+    padding: 22rem 0;
+    border-radius: 75%;
+    font-size: 20px;
+    text-align: center;
+    background: radial-gradient(circle at center center, #3B465C 40%, Hsla(57,32%,87%,80%) 100%);
+    margin: 0 auto;
+  }
 
 a#scroll-button {
   border: solid #F1F1E4;
