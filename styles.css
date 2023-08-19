@@ -41,7 +41,7 @@ body {
   padding: 0px;
   position:relative;
   color: #F1F1E4;
-  cursor: url("imgs/cursor.png"), auto;
+  cursor: url("imgs/newcursor.png"), auto;
 }
 section {
   height:100vh;
