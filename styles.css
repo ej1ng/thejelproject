@@ -75,6 +75,7 @@ section {
   border-radius: 50%; 
   pointer-events:none;
   transition: width 0.5s, height 0.5s;
+  z-index: 500;
 }
 .inner-cursor.grow {
   width: 25px;
@@ -92,6 +93,7 @@ section {
   border-radius: 50%;
   pointer-events: none;
   transition: 0.05s;
+  z-index: 500;
 }
 
 /* WELCOME PAGE SECTION */
