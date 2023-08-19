@@ -37,13 +37,26 @@
 html {
   font-size: calc(15px + 0.390625vw);
   scroll-behavior: smooth;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0;  /* Remove scrollbar space */
+  background: transparent;  
+}
+::-moz-selection {
+  color: 	hsla(220, 22%, 30%,90%);
+  background: hsla(60, 32%, 92%, 80%);
+}
+::selection {
+  color: 	hsla(220, 22%, 30%,90%);
+  background: hsla(60, 32%, 92%, 80%);
 }
 body {
   background-color: #3B465C;
   height: 100vh;
   position: relative;
   color: #F1F1E4;
-  overflow-x: hidden;
 }
 section {
   height: 100vh;
