@@ -1,4 +1,5 @@
-let cursor = document.querySelector('.cursor');
+let innerCursor = document.querySelector('.inner-cursor');
+let outerCursor = document.querySelector('.outer-cursor');
 
 document.addEventListener('mousemove', moveCursor);
 
@@ -6,8 +7,10 @@ function moveCursor(e){
   let x = e.clientX;
 	let y = e.clientY;
 
-	cursor.style.left = `${x}px`;
-	cursor.style.top = `${y}px`;
+	innerCursor.style.left = `${x}px`;
+	innerCursor.style.top = `${y}px`;
+	outerCursor.style.left = `${x}px`;
+	outerCursor.style.top = `${y}px`;
 }
 
 let links = Array.from(document.querySelectorAll("a"));
