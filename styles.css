@@ -7,31 +7,31 @@
 
 @font-face {
   font-family: "Apparel Bold";
-  src: url(fonts/Apparel-Bold.ttf);
+  src: url(fonts/Apparel/Apparel-Bold.ttf);
 }
 @font-face {
   font-family:"Apparel Regular";
-  src:url(fonts/Apparel-Regular.ttf);
+  src:url(fonts/Apparel/Apparel-Regular.ttf);
 }
 @font-face {
   font-family: "Amiko Bold";
-  src: url(fonts/Amiko-Bold.ttf)
+  src: url(fonts/Amiko/Amiko-Bold.ttf)
 }
 @font-face {
   font-family: "Amiko Regular";
-  src: url(fonts/Amiko-Regular.ttf)
+  src: url(fonts/Amiko/Amiko-Regular.ttf)
 }
 @font-face {
   font-family: "Apparel Regular Italic";
-  src: url(fonts/Apparel-Regular-It.ttf);
+  src: url(fonts/Apparel/Apparel-Regular-It.ttf);
 }
 @font-face {
   font-family: "Apparel Display Regular";
-  src: url(fonts/Apparel-Display-Regular.ttf);
+  src: url(fonts/Apparel/Apparel-Display-Regular.ttf);
 }
 @font-face {
   font-family: "Apparel Bold Italic";
-  src: url(fonts/Apparel-Bold-It.ttf);
+  src: url(fonts/Apparel/Apparel-Bold-It.ttf);
 }
 
 html {
@@ -39,31 +39,30 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  overflow-x:hidden;
-  background-color:#3B465C;
-  height:100vh;
-  position:relative;
+  background-color: #3B465C;
+  height: 100vh;
+  position: relative;
   color: #F1F1E4;
+  overflow-x: hidden;
 }
 section {
-  height:100vh;
-  width:100%;
+  height: 100vh;
+  width: 100%;
   position: relative;
 }
 #section-2 {
-  background-color:#1D232E;
-  height:180vh;
-  text-shadow:0px 3px 1px hsla(225, 25%, 3%, 30%);
+  background-color: #1D232E;
+  height: 180vh;
+  text-shadow: 0px 3px 1px hsla(225, 25%, 3%, 30%);
 }
 #section-3 {
-  background-color:#121720;
-  height:50vh;
+  background-color: #121720;
+  height: 50vh;
 }
 #definition-section {
-  padding-left:8vw;
+  padding-left: 8vw;
 }
 
-/* CURSOR STYLING */
 .inner-cursor {
   position: fixed;
   left: 10px;
@@ -75,7 +74,7 @@ section {
   border-radius: 50%; 
   pointer-events:none;
   transition: width 0.5s, height 0.5s;
-  z-index: 500;
+  z-index: 1000;
 }
 .inner-cursor.grow {
   width: 25px;
@@ -93,14 +92,14 @@ section {
   border-radius: 50%;
   pointer-events: none;
   transition: 0.05s;
-  z-index: 500;
+  z-index: 1000;
 }
 
-/* WELCOME PAGE SECTION */
+
 #logo {
   font-family: "Amiko Bold";
-  font-size:1.1rem;
-  margin: 10px 10px 80px 10px;
+  font-size: 1.1rem;
+  margin: 10px 10px 90px 10px;
 }
 #welcome-message {
   font-family:"Amiko Bold";
@@ -113,7 +112,7 @@ section {
   font-size:2rem;
   letter-spacing: .1em;
   font-weight:500;
-  margin-bottom:1em;
+  margin-bottom:1vh;
 }
 .circle {
   width: 44rem;
@@ -128,30 +127,9 @@ section {
     radial-gradient(circle at center center, transparent 15%, Hsl(57,32%,87%) 90%);
   margin: 0 auto;
 }
-.gradientLeft {
-  width: 44rem;
-  height: 0;
-  padding: 22rem 0;
-  border-radius: 75%;
-  background-image:
-    radial-gradient(circle at center center, Hsl(57,32%,87%) -700%, transparent 50%),
-    radial-gradient(circle at center center, transparent 30%, #3B465C 150%);
-  margin-bottom: -954px;
-  margin-left: -445px;
-}
-.gradientRight {
-  width: 44rem;
-  height: 0;
-  padding: 22rem 0;
-  border-radius: 75%;
-  background-image:
-    radial-gradient(circle at center center, Hsl(57,32%,87%) -700%, transparent 50%),
-    radial-gradient(circle at center center, transparent 30%, #3B465C 150%);
-  margin-bottom: -960px;
-  margin-left: 1200px;
-}
+
 a#scroll-button {
-  border: solid #F1F1E4;
+  border: solid hsla(60, 32%, 92%, 80%);
   border-width: 0 .5rem .5rem 0;
   border-radius:.25em;
   display: inline-block;
@@ -199,15 +177,16 @@ a#scroll-button {
   font-family:"Apparel Bold Italic";
   letter-spacing:0.08em;
 }
-/* ABOUT ME SECTION */
+
 #section-title {
-  font-family: "Apparel Regular";
+  font-family: "Apparel Display Regular";
   font-weight:100;
-  font-size:4rem;
+  font-size:5.3rem;
   text-align:center;
   text-shadow:0px 6px 1.5px hsla(225, 25%, 3%, 30%);
-  margin-top:14rem;
+  margin-top:12rem;
 }
+
 .container {
   display:flex;
   align-items:center;
@@ -226,15 +205,14 @@ a#scroll-button {
 .right {
   width:40%;
   min-height:400px;
-  background-color: rgba(59, 70, 92, 0.273);
-  backdrop-filter: blur(20px);
+  background-color:#3B465C;
   display:flex;
   justify-content: center;
   align-items: center;
   padding:30px;
   border-radius:8px;
   color:#F1F1E4;
-  margin-left:-200px;
+  margin-left:-150px;
   box-shadow:10px 10px 4px hsla(225, 25%, 3%, 20%);
 }
 .right p {
@@ -243,27 +221,28 @@ a#scroll-button {
   font-weight: lighter;
 }
 
-/* NEXT PAGE SECTION */
 .next-container {
+  position:relative;
+  bottom:0;
   display:flex;
   align-items:center;
   justify-content:space-around;
   width:100%;
   max-width:2000px;
-  padding: 5vh 10vw;
+  padding: 5vh 10vw 5vh 10vw;
 }
 .next-left {
   width: 50%;
   height:100%;
 }
 .next-left h1 {
-  font-family: "Apparel Regular";
+  font-family: "Apparel Display Regular";
   font-weight:100;
-  font-size:5.3rem;
+  font-size:5.2rem;
   text-align:left;
   text-shadow:0px 6px 1.5px hsla(225, 25%, 3%, 30%);
   line-height:1em;
-  color: rgb(233, 232, 212);
+  color: rgba(233, 232, 212, 1);
 }
 .next-left h2 {
   font-family:"Amiko Regular";
@@ -282,7 +261,7 @@ a#scroll-button {
   margin-top:12vh;
 }
 .next-right a {
-   height:100%;
+  height:100%;
   color:rgba(233, 232, 212, .8);
   font-family:"Amiko Bold";
   text-decoration: none;
@@ -291,9 +270,9 @@ a#scroll-button {
 a:hover {
   color:rgb(241, 241, 234);
 }
-/* DISPLAY/SIZING CONTROL */
-@media only screen and (max-width:768px) {
-  .container {
+
+@media only screen and (max-width:800px) {
+  .container , .next-container{
     flex-direction:column;
     width:100%;
   }
@@ -305,5 +284,17 @@ a:hover {
     width:90%;
     margin:0;
     margin-top:-100px;
+  }
+  .next-container {
+    justify-content:space-between;
+    padding: 5vh 5vw;
+  }
+  .next-left {
+    width:100%;
+  }
+  .next-right {
+    margin-top:5vh;
+    text-align: right;
+    width:100%;
   }
 }
