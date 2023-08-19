@@ -17,6 +17,10 @@
   src: url(fonts/Amiko-Bold.ttf)
 }
 @font-face {
+  font-family: "Amiko Regular";
+  src: url(fonts/Amiko-Regular.ttf)
+}
+@font-face {
   font-family: "Apparel Regular Italic";
   src: url(fonts/Apparel-Regular-It.ttf);
 }
@@ -44,8 +48,7 @@ section {
 }
 #section-2 {
   background-color:#1D232E;
-  padding-left:8vw;
-  height:125vh;
+  height:200vh;
   text-shadow:0px 3px 1px hsla(225, 25%, 3%, 30%);
 }
 
