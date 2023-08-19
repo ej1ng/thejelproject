@@ -4,105 +4,103 @@
   box-sizing: border-box;
 }
 
-
-html {
-  font-size: calc(15px + 0.390625vw);
-  scroll-behavior: smooth;
-}
-
 @font-face {
   font-family: "Apparel Bold";
-  src: url(fonts/Apparel-Bold.ttf);
+  src: url(fonts/Apparel/Apparel-Bold.ttf);
 }
 @font-face {
   font-family:"Apparel Regular";
-  src:url(fonts/Apparel-Regular.ttf);
+  src:url(fonts/Apparel/Apparel-Regular.ttf);
 }
 @font-face {
   font-family: "Amiko Bold";
-  src: url(fonts/Amiko-Bold.ttf)
+  src: url(fonts/Amiko/Amiko-Bold.ttf)
 }
-
 @media (min-width:1000px) {
   .hidden-ss {
     display: none !important;
   }
 }
 
+html {
+  font-size: calc(15px + 0.390625vw);
+  scroll-behavior: smooth;
+}
 body {
   background-color:#3B465C;
   height:100vh;
   position:relative;
+  color: #F1F1E4;
+}
+section {
+  height:100vh;
+  position: relative;
+}
+#section-2 {
+  background-color:#1D232E;
+  padding: 5%;
 }
 
 #logo {
-  color: #F1F1E4;
   font-family: "Amiko Bold";
   font-size:1.1rem;
-  margin: 5px 5px 90px 5px;
+  margin: 10px 10px 90px 10px;
 }
 #welcome-message {
   font-family:"Amiko Bold";
   font-size: 5rem;
-  margin-top:-25%;
+  margin-top:-20%;
 }
 #sub-message {
   font-family: "Apparel Regular";
   width:100%;
   font-size:2rem;
-  letter-spacing: .2em;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
+  letter-spacing: .1em;
+  font-weight:500;
+  margin-top:1.5em;
 }
-
-.smoothed {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
 .circle {
-  width: 44rem;
+  width: 50rem;
   height: 0;
   line-height: 128px;
-  padding:22rem 0;
+  padding:25rem 0;
   border-radius: 75%;
   font-size: 20px;
-  color: #fff;
   text-align: center;
   background: hsla(57, 32%, 87%,80%);
   margin:0 auto;
 }
 
-.
-
 a#scroll-button {
-  position:absolute;
-  height:6.25em;
-  width:6.25em;
-  border:0.5em solid hsla(0,0,0,0%);
-  margin:auto;
-  left:0;
-  right:0;
-  bottom:6.25em;
+  border: solid #F1F1E4;
+  border-width: 0 .5rem .5rem 0;
+  border-radius:.25em;
+  display: inline-block;
+  padding: .6rem;
+  transform: rotate(45deg);
 }
-a#scroll-button:before {
-  position:absolute;
-  content:"";
-  margin:auto;
-  left:0;
-  right:0;
-  height:1.2em;
-  width:1.2em;
-  background-color: #fff;
-  border-radius:50%;
-  animation: move-down 2s infinite;
+.button {
+  position:relative;
+  bottom: -100px;
+  transition-property: transform;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
 }
-@keyframes move-down {
-  80% {
-    opacity:0.5;
-  }
-  100% {
-    transform: translateY(5.3em);
-    opacity: 0;
-  }
+.button:hover {
+  transform: translateY(-10px);
+}
+
+#word {
+  font-size: 5rem;
+  font-family: "Apparel Bold";
+  letter-spacing: 2px;
+}
+#pronounciation {
+  font-size: 1.7rem;
+  font-family: "Apparel Bold";
+}
+#definition {
+  font-size: ;
+  font-family: ;
 }
