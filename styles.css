@@ -18,7 +18,11 @@
 }
 @font-face {
   font-family: "Apparel Regular Italic";
-  src: url(fonts/Apparel/Apparel-Regular-It.ttf);
+  src: url(fonts/Apparel-Regular-It.ttf);
+}
+@font-face {
+  font-family: "Apparel Bold Italic";
+  src: url(fonts/Apparel-Bold-It.ttf);
 }
 @media (min-width:1000px) {
   .hidden-ss {
@@ -42,7 +46,7 @@ section {
 }
 #section-2 {
   background-color:#1D232E;
-  padding: 5%;
+  padding-left:8vw;
 }
 
 #logo {
@@ -99,21 +103,23 @@ a#scroll-button {
   font-size: 5rem;
   font-family: "Apparel Bold";
   letter-spacing: 2px;
+  padding-top:1rem;
 }
 #pronounciation {
   font-size: 1.7rem;
   font-family: "Apparel Bold";
+  color: hsl(60, 32%, 92%, 80%);
 }
 #definition {
   margin-top:1em;
   font-size: 1rem;
   font-family: "Apparel Regular Italic";
   line-height:2em;
-  font-weight: ;
   color: hsl(60, 32%, 92%, 70%);
-  letter-spacing: 0.1em;
+  letter-spacing: 0.08em;
   margin-left:1rem;
 }
-#bold {
-  letter-spacing:0.2em;
+.bold {
+  font-family:"Apparel Bold Italic";
+  letter-spacing:0.11em;
 }
