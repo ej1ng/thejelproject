@@ -19,9 +19,9 @@ console.log(links);
 
 links.forEach(link => {
 	link.addEventListener('mouseover', ()=>{
-		outerCursor.classList.add("grow");
+		innerCursor.classList.add("grow");
 	});
 	link.addEventListener('mouseleave', ()=>{
-		outerCursor.classList.remove("grow");
+		innerCursor.classList.remove("grow");
 	});
 });
