@@ -6,15 +6,15 @@
 
 @font-face {
   font-family: "Apparel Bold";
-  src: url(fonts/Apparel/Apparel-Bold.ttf);
+  src: url(fonts/Apparel-Bold.ttf);
 }
 @font-face {
   font-family:"Apparel Regular";
-  src:url(fonts/Apparel/Apparel-Regular.ttf);
+  src:url(fonts/Apparel-Regular.ttf);
 }
 @font-face {
   font-family: "Amiko Bold";
-  src: url(fonts/Amiko/Amiko-Bold.ttf)
+  src: url(fonts/Amiko-Bold.ttf)
 }
 @media (min-width:1000px) {
   .hidden-ss {
