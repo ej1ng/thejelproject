@@ -16,6 +16,10 @@
   font-family: "Amiko Bold";
   src: url(fonts/Amiko-Bold.ttf)
 }
+@font-face {
+  font-family: "Apparel Regular Italic";
+  src: url(fonts/Apparel/Apparel-Regular-It.ttf);
+}
 @media (min-width:1000px) {
   .hidden-ss {
     display: none !important;
@@ -101,6 +105,15 @@ a#scroll-button {
   font-family: "Apparel Bold";
 }
 #definition {
-  font-size: ;
-  font-family: ;
+  margin-top:1em;
+  font-size: 1rem;
+  font-family: "Apparel Regular Italic";
+  line-height:2em;
+  font-weight: ;
+  color: hsl(60, 32%, 92%, 70%);
+  letter-spacing: 0.1em;
+  margin-left:1rem;
+}
+#bold {
+  letter-spacing:0.2em;
 }
