@@ -51,6 +51,9 @@ section {
   height:200vh;
   text-shadow:0px 3px 1px hsla(225, 25%, 3%, 30%);
 }
+#definition-section {
+  padding-left:8vw;
+}
 
 #logo {
   font-family: "Amiko Bold";
