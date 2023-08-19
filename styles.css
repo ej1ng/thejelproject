@@ -6,27 +6,31 @@
 
 @font-face {
   font-family: "Apparel Bold";
-  src: url(fonts/Apparel-Bold.ttf);
+  src: url(fonts/Apparel/Apparel-Bold.ttf);
 }
 @font-face {
   font-family:"Apparel Regular";
-  src:url(fonts/Apparel-Regular.ttf);
+  src:url(fonts/Apparel/Apparel-Regular.ttf);
 }
 @font-face {
   font-family: "Amiko Bold";
-  src: url(fonts/Amiko-Bold.ttf);
+  src: url(fonts/Amiko/Amiko-Bold.ttf)
 }
 @font-face {
   font-family: "Amiko Regular";
-  src: url(fonts/Amiko-Regular.ttf);
+  src: url(fonts/Amiko/Amiko-Regular.ttf)
 }
 @font-face {
   font-family: "Apparel Regular Italic";
-  src: url(fonts/Apparel-Regular-It.ttf);
+  src: url(fonts/Apparel/Apparel-Regular-It.ttf);
+}
+@font-face {
+  font-family: "Apparel Display Regular";
+  src: url(fonts/Apparel/Apparel-Display-Regular.ttf);
 }
 @font-face {
   font-family: "Apparel Bold Italic";
-  src: url(fonts/Apparel-Bold-It.ttf);
+  src: url(fonts/Apparel/Apparel-Bold-It.ttf);
 }
 
 html {
