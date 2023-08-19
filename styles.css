@@ -213,11 +213,11 @@ a#scroll-button {
   justify-content:space-around;
   width:100%;
   max-width:2000px;
-  padding: 5vh 5vw;
-  
+  padding: 5vh 10vw;
 }
 .next-left {
   width: 50%;
+  height:100%;
 }
 .next-left h1 {
   font-family: "Apparel Regular";
@@ -226,7 +226,7 @@ a#scroll-button {
   text-align:left;
   text-shadow:0px 6px 1.5px hsla(225, 25%, 3%, 30%);
   line-height:1em;
-  color: rgba(233, 232, 212, 1);
+  color: rgb(233, 232, 212);
 }
 .next-left h2 {
   font-family:"Amiko Regular";
@@ -239,11 +239,13 @@ a#scroll-button {
 }
 .next-right {
   width:50%;
+  height:100%;
   text-align:right;
-  vertical-align: bottom;
+  justify-content: center;
+  margin-top:12vh;
 }
 .next-right a {
-  height:100%;
+   height:100%;
   color:rgba(233, 232, 212, .8);
   font-family:"Amiko Bold";
   text-decoration: none;
