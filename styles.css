@@ -37,8 +37,11 @@ html {
 body {
   background-color:#3B465C;
   height:100vh;
+  margin: 0px;
+  padding: 0px;
   position:relative;
   color: #F1F1E4;
+  cursor: url("imgs/cursor.png"), auto;
 }
 section {
   height:100vh;
