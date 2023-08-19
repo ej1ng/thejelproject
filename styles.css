@@ -132,6 +132,12 @@ a#scroll-button {
 .button:hover {
   transform: translateY(-10px);
 }
+.button:hover #scroll-button {
+  border:solid rgb(241, 241, 234);
+  border-width: 0 .5rem .5rem 0;
+  border-radius:.25em;
+}
+
 #word {
   font-size: 4rem;
   font-family: "Apparel Bold";
@@ -238,11 +244,13 @@ a#scroll-button {
 }
 .next-right a {
   height:100%;
-  vertical-align:middle;
-  color:#F1F1E4;
+  color:rgba(233, 232, 212, .8);
   font-family:"Amiko Bold";
   text-decoration: none;
-  font-size:2.7em;
+  font-size:3em;
+}
+a:hover {
+  color:rgb(241, 241, 234);
 }
 
 @media only screen and (max-width:768px) {
