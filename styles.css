@@ -34,6 +34,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
+  overflow-x:hidden;
   background-color:#3B465C;
   height:100vh;
   margin: 0px;
@@ -86,7 +87,28 @@ section {
     radial-gradient(circle at center center, transparent 15%, Hsl(57,32%,87%) 90%);
   margin: 0 auto;
 }
-
+.gradientLeft {
+  width: 44rem;
+  height: 0;
+  padding: 22rem 0;
+  border-radius: 75%;
+  background-image:
+    radial-gradient(circle at center center, Hsl(57,32%,87%) -700%, transparent 50%),
+    radial-gradient(circle at center center, transparent 30%, #3B465C 150%);
+  margin-bottom: -954px;
+  margin-left: -445px;
+}
+.gradientRight {
+  width: 44rem;
+  height: 0;
+  padding: 22rem 0;
+  border-radius: 75%;
+  background-image:
+    radial-gradient(circle at center center, Hsl(57,32%,87%) -700%, transparent 50%),
+    radial-gradient(circle at center center, transparent 30%, #3B465C 150%);
+  margin-bottom: -960px;
+  margin-left: 1200px;
+}
 a#scroll-button {
   border: solid #F1F1E4;
   border-width: 0 .5rem .5rem 0;
@@ -105,7 +127,6 @@ a#scroll-button {
 .button:hover {
   transform: translateY(-10px);
 }
-
 #word {
   font-size: 4rem;
   font-family: "Apparel Bold";
