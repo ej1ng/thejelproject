@@ -307,6 +307,27 @@ a:hover {
   color:rgb(241, 241, 234);
 }
 
+/* FOR TEMP PAGE */
+.temp-page {
+  overflow-y: hidden;
+}
+.temp-container {
+  width:100%;
+  height:100%;
+  text-align:center;
+  position:relative;
+  padding-top:30vh;
+}
+.temp-container a {
+  color:rgba(233, 232, 212, .8);
+  font-family:"Amiko Bold";
+  text-decoration: none;
+  font-size:3em;
+}
+.temp-container a:hover {
+  color:rgb(241, 241, 234);
+}
+
 @media only screen and (max-width:800px) {
   .container , .next-container{
     flex-direction:column;
