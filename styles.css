@@ -380,4 +380,10 @@ a:hover {
   #sub-message {
     font-size:1.7rem;
   }
+  .inner-cursor {
+    z-index:0;
+  }
+  .outer-cursor {
+    z-index:0;
+  }
 }
