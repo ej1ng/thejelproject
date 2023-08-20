@@ -37,7 +37,6 @@
 html {
   font-size: calc(15px + 0.390625vw);
   scroll-behavior: smooth;
-  overflow: scroll;
   overflow-x: hidden;
 }
 ::-webkit-scrollbar {
@@ -53,15 +52,20 @@ html {
   background: hsla(60, 32%, 92%, 80%);
 }
 body {
-  background-color: #3B465C;
   height: 100vh;
   position: relative;
   color: #F1F1E4;
+  overflow-x: hidden;
 }
 section {
   height: 100vh;
   width: 100%;
   position: relative;
+
+}
+#section-1 {
+  background-color: #3B465C;
+  height: 100vh;
 }
 #section-2 {
   background-color: #1D232E;
@@ -108,16 +112,16 @@ section {
   z-index: 1000;
 }
 
-
 #logo {
   font-family: "Amiko Bold";
   font-size: 1.1rem;
-  margin: 10px 10px 90px 10px;
+  padding: 5px;
 }
 #welcome-message {
   font-family:"Amiko Bold";
-  font-size: 5rem;
-  margin-top:-20%;
+  font-size: 5.5rem;
+  line-height:1.2em;
+  margin-top: calc(-20vh - 10px);
 }
 #sub-message {
   font-family: "Apparel Regular";
@@ -127,18 +131,29 @@ section {
   font-weight:500;
   margin-bottom:1vh;
 }
+.welcome-container {
+  width:100vw;
+  min-height: 1000px;
+  display:flex;
+  justify-content: center;
+  align-items:end;
+  flex-direction: row;
+  overflow-x:hidden;
+}
 .circle {
-  width: 44rem;
+  position:absolute;
+  bottom:calc(-5em / 1.035);
+  width: 100vh;
   height: 0;
-  line-height: 128px;
-  padding: 22rem 0;
+  line-height: 6em;
+  padding: calc(100vh/2) 0;
   border-radius: 75%;
   font-size: 20px;
   text-align: center;
   background-image: 
     radial-gradient(circle at center center, #3B465C 30%, transparent 70% 150%),
     radial-gradient(circle at center center, transparent 15%, Hsl(57,32%,87%) 90%);
-  margin: 0 auto;
+  z-index:500;
 }
 .gradientLeft {
   width: 44rem;
@@ -151,7 +166,6 @@ section {
   margin-bottom: -954px;
   margin-left: -445px;
 }
-
 .gradientRight {
   width: 44rem;
   height: 0;
@@ -353,5 +367,17 @@ a:hover {
     margin-top:5vh;
     text-align: right;
     width:100%;
+  }
+}
+
+@media only screen and (max-width:450px) {
+  .circle {
+    line-height: 5em;
+  }
+  #welcome-message {
+    font-size:4rem;
+  }
+  #sub-message {
+    font-size:1.7rem;
   }
 }
