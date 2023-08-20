@@ -55,6 +55,7 @@ body {
   height: 100vh;
   position: relative;
   color: #F1F1E4;
+  background-color: hsla(220, 22%, 30%,90%);
   overflow-x: hidden;
 }
 section {
