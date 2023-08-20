@@ -82,6 +82,9 @@ section {
 .spacer {
   border: 3.5em solid #3B465C;
 }
+.spacer-2 {
+  border: 3.5em solid #1D232E;
+}
 
 .inner-cursor {
   position: fixed;
