@@ -60,7 +60,6 @@ body {
 section {
   width: 100%;
   position: relative;
-
 }
 #section-1 {
   background-color: #3B465C;
@@ -77,6 +76,10 @@ section {
 }
 #definition-section {
   padding-left: 8vw;
+}
+
+.spacer {
+  border: 3.5em solid #3B465C;
 }
 
 .inner-cursor {
@@ -374,7 +377,7 @@ a:hover {
     line-height: 5em;
   }
   #welcome-message {
-    font-size:4rem;
+    font-size:4.3rem;
   }
   #sub-message {
     font-size:1.7rem;
@@ -384,5 +387,14 @@ a:hover {
   }
   .outer-cursor {
     z-index:0;
+  }
+  #section-title {
+    font-size:4.3rem;
+  }
+  .left {
+    border-radius:0;
+  }
+  .next-left h1 {
+    font-size:4.2rem;
   }
 }
